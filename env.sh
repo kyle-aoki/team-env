@@ -8,3 +8,7 @@ sync_env() {
   git pull
   cd $curr
 }
+
+fn1() {
+  echo "fn1"
+}
