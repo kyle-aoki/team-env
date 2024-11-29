@@ -2,7 +2,7 @@ pull() {
   echo "opening pull request"
 }
 
-fn1() {
+sync_env() {
   curr=$(pwd)
   cd ~/pros/team-env
   git pull
